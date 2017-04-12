@@ -1,7 +1,7 @@
 $scriptsFolder = Get-Item $PSScriptRoot;
 $projectRootFolder = $scriptsFolder.Parent;
 
-$testCsproj = Join-Path $projectRootFolder.FullName "tests" | Join-Path -ChildPath "System.Ben.Tests.csproj";
+$testCsproj = Join-Path $projectRootFolder.FullName "tests" | Join-Path -ChildPath "System.Matthijs.Tests.csproj";
 
 "restoring packages"
 dotnet restore

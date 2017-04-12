@@ -9,7 +9,7 @@ cd $projectRootFolder
 dotnet restore
 
 #running tests
-dotnet test $projectRootFolder/tests/System.Ben.Tests.csproj
+dotnet test $projectRootFolder/tests/System.Matthijs.Tests.csproj
 
 #building solutions
 dotnet build -c Release
